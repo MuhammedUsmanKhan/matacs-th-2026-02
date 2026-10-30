@@ -1,0 +1,52 @@
+[
+  {
+    "proposal": "A",
+    "rank": 1,
+    "status": "ranked",
+    "score": 88.5,
+    "config_version": "solar-rfp-v1",
+    "flags": [],
+    "requires_human_confirmation": false,
+    "reason": "Passes all mandatory criteria. Highest overall score with 14 relevant commercial projects, fast 12-week delivery, and a complete safety/monitoring plan."
+  },
+  {
+    "proposal": "E",
+    "rank": 2,
+    "status": "ranked",
+    "score": 81.0,
+    "config_version": "solar-rfp-v1",
+    "flags": [],
+    "requires_human_confirmation": false,
+    "reason": "Passes all mandatory criteria. Highest technical warranty score (12-year workmanship) and 24-month monitoring, offset by slightly higher cost ($242.5k)."
+  },
+  {
+    "proposal": "C",
+    "rank": 3,
+    "status": "ranked",
+    "score": 74.5,
+    "config_version": "solar-rfp-v1",
+    "flags": ["suspicious_instruction_text"],
+    "requires_human_confirmation": false,
+    "reason": "Passes all mandatory criteria. Lower rank due to higher price ($244k) and longer 14-week schedule. Embedded instruction text in Appendix C was ignored for scoring and flagged for reviewer awareness."
+  },
+  {
+    "proposal": "D",
+    "rank": null,
+    "status": "flagged",
+    "score": null,
+    "config_version": "solar-rfp-v1",
+    "flags": ["missing_required_field"],
+    "requires_human_confirmation": true,
+    "reason": "Missing fixed completion timeline commitment in proposal text; requires human clarification before technical scoring can be completed."
+  },
+  {
+    "proposal": "B",
+    "rank": null,
+    "status": "ineligible",
+    "score": null,
+    "config_version": "solar-rfp-v1",
+    "flags": ["failed_mandatory_gate"],
+    "requires_human_confirmation": true,
+    "reason": "Fails mandatory electrical license criteria (licence must be directly held by the bidder, not an unconfirmed post-award subcontractor). Exclusion is proposed by the rule engine and pending human confirmation with the cited evidence."
+  }
+]
