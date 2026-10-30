@@ -12,7 +12,7 @@
 - [WRITEUP.md](./WRITEUP.md): Complete answers to the five core design questions (AI vs. Rules, Consistency, Human-in-the-Loop, Changing Criteria, and Risks/Safeguards).
 - [PROMPTS.md](./PROMPTS.md): Proposed AI extraction system prompt, per-field citation schema, and injection guardrails.
 - [ranking.json](./ranking.json): Evaluated and scored ranking output for Proposals A through E.
-- [diagram/Triage-working-mechanism.png](./diagram/Triage-working-mechanism.png) (editable source: [Triage-working-mechanism](./diagram/Triage-working-mechanism.png)): Architecture flow from PDF upload to ranked output.
+- [diagram/Triage-working-mechanism.png](./diagram/Triage-working-mechanism.png): Architecture flow from PDF upload to ranked output.
 - [prototype/run_triage.py](./prototype/run_triage.py): Python prototype implementation executing LLM extraction, citation validation, and deterministic rule scoring.
 - [prototype/README.md](./prototype/README.md): Setup guide, environment configuration, and execution instructions for running the prototype triage script.
 
