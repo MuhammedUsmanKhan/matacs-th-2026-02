@@ -10,7 +10,7 @@
 ## Repository Structure & File Links
 
 - [WRITEUP.md](./WRITEUP.md): Complete answers to the five core design questions (AI vs. Rules, Consistency, Human-in-the-Loop, Changing Criteria, and Risks/Safeguards).
-- [prompts.md](./prompts.md): Proposed AI extraction system prompt, per-field citation schema, and injection guardrails.
+- [PROMPTS.md](./PROMPTS.md): Proposed AI extraction system prompt, per-field citation schema, and injection guardrails.
 - [ranking.json](./ranking.json): Evaluated and scored ranking output for Proposals A through E.
 - [diagram/process_flow.png](./diagram/process_flow.png) (editable source: [process_flow.drawio](./diagram/process_flow.drawio)): Architecture flow from PDF upload to ranked output.
 
